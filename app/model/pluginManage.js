@@ -20,7 +20,11 @@ module.exports = app => {
         pkgName: String, // 包名 
         enName: String, // 英文名 
         name: String, // 名称 
-        description: String, // 描述 
+        description: String, // 描述
+        amount: {
+            type: Number,
+            default: 0
+        }, // 价格 
         isadm: {
             type: String,
             default: '1'

@@ -43,6 +43,11 @@ exports.doraPluginManage = {
         method: 'get',
         controllerName: 'removes',
         details: '删除插件管理',
+    }, {
+        url: 'pluginManage/importPlugin',
+        method: 'post',
+        controllerName: 'importPlugin',
+        details: '插件导入',
     }],
     fontApi: [{
         url: 'pluginManage/getList',
